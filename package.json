@@ -1,0 +1,35 @@
+{
+  "name": "shelter_2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Voitko-Viacheslav/Shelter_2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Voitko-Viacheslav/Shelter_2023/issues"
+  },
+  "homepage": "https://github.com/Voitko-Viacheslav/Shelter_2023#readme",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "favicons-webpack-plugin": "^6.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.60.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-loader": "^4.2.0",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
