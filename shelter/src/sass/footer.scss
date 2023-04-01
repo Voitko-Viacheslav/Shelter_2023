@@ -1,0 +1,68 @@
+.foot {
+    background: url(//), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 100%), linear-gradient(0deg, #211f20, #211f20);
+}
+.footer__wrapper {
+    display: flex;
+    grid-column-gap: 158px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.footer__question {
+}
+.footer__question-title {
+    margin-bottom: 40px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.footer__visit-title{
+    margin-bottom: 34px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.footer__question-envelope {
+    margin-bottom: 32px;
+}
+.footer__question-phone {
+}
+.footer__visit {
+}
+.footer__visit-boston {
+    margin-bottom: 32px;
+}
+.footer__visit-london {
+}
+.footer__puppy {
+    max-height: 310px;
+}
+.desc {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+.footer__link {
+    display: flex;
+    grid-column-gap: 20px;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
