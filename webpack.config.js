@@ -1,7 +1,7 @@
 const path = require('path'); 
 const htmlWebpackPlugin = require('html-webpack-plugin') // подключаем HTML библиотеку
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin') // подключаем Favicon
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 
 module.exports = {
@@ -50,7 +50,7 @@ module.exports = {
     ]
   },
   plugins: [ // свойства плагинов
-    new CleanWebpackPlugin(),
+    // new CleanWebpackPlugin(),
     new htmlWebpackPlugin({
         title: 'Main',
         filename: 'main.html',
