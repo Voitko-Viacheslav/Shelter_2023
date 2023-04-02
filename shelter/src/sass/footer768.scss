@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .footer__wrapper {
+        justify-content: center;
+        column-gap: 60px;
+        row-gap: 65px;
+        padding-top: 15px;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+}

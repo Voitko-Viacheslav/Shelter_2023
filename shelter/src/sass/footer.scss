@@ -3,11 +3,13 @@
 }
 .footer__wrapper {
     display: flex;
-    grid-column-gap: 158px;
+    column-gap: 140px;
     padding-top: 40px;
-    margin: 0 auto;
+    flex-wrap: wrap;
 }
-.footer__question {
+.footer__question,
+.footer__visit     {
+    margin-top: 16px;
 }
 .footer__question-title {
     margin-bottom: 40px;
@@ -30,11 +32,9 @@
     color: #FFFFFF;
 }
 .footer__question-envelope {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 .footer__question-phone {
-}
-.footer__visit {
 }
 .footer__visit-boston {
     margin-bottom: 32px;
@@ -65,4 +65,5 @@
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
+    max-width: 300px;
 }

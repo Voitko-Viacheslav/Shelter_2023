@@ -59,7 +59,6 @@
   .main-page__container-content {
     margin: 0 auto;
     max-width: 1200px;
-   
   }
 
 
@@ -184,7 +183,7 @@
 }
 .only__description {
   margin-bottom: 54px;
-  // max-width: 460px;
+  width: 460px;
   font-family: 'Commissioner';
   font-style: normal;
   font-weight: 400;
@@ -295,25 +294,27 @@
 
 .our__arow-left {
   margin: 0 53px 53px 0;
-  width: 52px;
-  height: 52px;
+  min-width: 52px;
+  min-height: 52px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  box-sizing: border-box;
 }
 .our__arow-right {
   margin: 0 0 0 53px;
-  width: 52px;
-  height: 52px;
+  min-width: 52px;
+  min-height: 52px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  box-sizing: border-box;
 }
 
 .our-friends__wrapper-cards {
@@ -418,9 +419,14 @@
  
 
 //TODO Start section help *****************************************************************
+.help__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .help__title {
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 75px;
   padding-bottom: 60px;
   text-align: center;
   max-width: 400px;
@@ -432,27 +438,32 @@
   letter-spacing: 0.06em;
   color: #545454;
 }
-
 .help__card-top-wrapper {
   display: flex;
-  margin-left: 87px;
-  grid-column-gap: 120px;
-  align-items: center;
-  margin-bottom: 50px;
-}
-.help__card-bottom-wrapper {
-  margin: 0 0 0 168px;
-  display: flex;
-  grid-column-gap: 120px;
+  // margin-left: 87px;
+  column-gap: 120px;
+  row-gap: 55px;
   margin-bottom: 100px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.help__card-wrapper {
+
+.help__card-wrapper  {
   display: flex;
   align-items: center;
   text-align: center;
 }
+
+.help__card-wrapper-bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.help__card {
+  margin-bottom: 23px;
+}
 .help__card-title {
-  margin-top: 30px;
   white-space: nowrap;
   font-family: 'Georgia';
   font-style: normal;
@@ -462,6 +473,37 @@
   letter-spacing: 0.06em;
   color: #545454;
 }
+
+
+// .help__card-top-wrapper {
+//   display: flex;
+//   margin-left: 87px;
+//   grid-column-gap: 120px;
+//   align-items: center;
+//   margin-bottom: 50px;
+// }
+// .help__card-bottom-wrapper {
+//   margin: 0 0 0 168px;
+//   display: flex;
+//   grid-column-gap: 120px;
+//   margin-bottom: 100px;
+// }
+// .help__card-wrapper {
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+// }
+// .help__card-title {
+//   margin-top: 30px;
+//   white-space: nowrap;
+//   font-family: 'Georgia';
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 115%;
+//   letter-spacing: 0.06em;
+//   color: #545454;
+// }
 //TODO End section help_______________________________________________________________
 
 
@@ -476,6 +518,7 @@
   padding-top: 80px;
   padding-bottom: 100px;
   justify-content: center;
+  align-items: center;
   grid-column-gap: 30px;
 }
 .addition__pic {
@@ -509,6 +552,7 @@
 .addition__btn {
   display: flex;
   align-items: center;
+  max-width: 320px;
   padding: 10px 15px;
   gap: 15px;
   border: none;
@@ -520,7 +564,6 @@
   font-size: 20px;
   line-height: 115%;
   display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   color: #545454;
   text-decoration: none;
