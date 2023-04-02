@@ -1,10 +1,27 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .footer__wrapper {
-        justify-content: center;
-        column-gap: 60px;
-        row-gap: 65px;
-        padding-top: 15px;
-        margin: 0 auto;
-        flex-wrap: wrap;
+        padding-top: 30px;
+        row-gap: 40px;
+    }
+    .footer__question-title,
+    .footer__visit-title
+     {
+        font-size: 25px;
+        text-align: center;
+
+    }
+    .footer__visit-title {
+        width: 290px;
+    }
+    .footer__question,
+    .footer__visit     {
+        margin-top: 0px;
+    }
+    .footer__question {
+        margin: 0 20px;
+    }
+    .footer__puppy {
+        width: 260px;
+        height: 275px;
     }
 }

@@ -1,5 +1,146 @@
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
+
     .main-page__container-content {
-        padding: 0 43px;
+        padding: 0 30px;
     }
+
+    //TODO Start Header *****************************************************************
+    .header__wraper {
+        padding-bottom: 60px;
+    }
+    //TODO End Header __________________________________________________________________
+
+
+
+    //TODO Start section only *****************************************************************
+    .only__wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 82px;
+        column-gap: 0px;
+    }
+    .only-dog {
+        width: 569px;
+        height: 593px;
+        align-self: flex-end;
+    }
+    .only__information {
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+    .only__description {
+        margin-bottom: 44px;
+    }
+    .wrapper__more {
+        display: flex;
+        justify-content: center;
+    }
+    .only__more {
+        padding: 15px 45px;
+        background: #F1CDB3;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 100px;
+        transition: 0.5s;
+        text-decoration: none;
+    }
+    //TODO End section only __________________________________________________________________
+
+
+
+    //TODO Start section about *****************************************************************
+    .about__wrapper { 
+        margin: 0 auto;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        column-gap: 0px;
+        row-gap: 80px;
+        margin-bottom: 95px;
+    }
+    .about__title {
+       text-align: start; 
+    } 
+    .about__information {
+        padding: 0;
+    }
+    //TODO Start section about __________________________________________________________________
+
+
+
+    //TODO Start section our-friends *****************************************************************
+    .our-friends__wrapper-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 40px;
+        margin-bottom: 60px;
+        height: 435px;
+        overflow: hidden;
+    }
+    .our-friends__card {
+        width: 270px;
+    }
+    .our__arow-left {
+        margin: 0 10px 60px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+    }
+    .our__arow-right {
+        margin: 0 0 60px 12px;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #F1CDB3;
+        border-radius: 100px;
+    }
+    //TODO End section our-friends __________________________________________________________
+
+
+
+    //TODO Start section help *****************************************************************
+    .help__title {
+        padding-top: 78px;
+    }
+    .help__card-top-wrapper {
+        display: flex;
+        column-gap: 60px;
+        row-gap: 55px;
+        margin-bottom: 100px;
+        max-width: 630px;
+        flex-wrap: wrap;
+        // justify-content: center;
+    }
+   .help__card-wrapper {
+        justify-content: center;
+        width: 170px;
+    }
+   .help__card {
+        margin-bottom: 25px;
+    }
+    //TODO End section help_______________________________________________________________
+
+
+
+    //TODO Start section In addition  *****************************************************************
+    .addition__wrapper {
+        flex-direction: column-reverse;
+    }
+    .addition__donate {
+        margin-bottom: 60px;
+    }
+    //TODO End section In addition_______________________________________________________________
 }
+
+
+    
+    
+    
+

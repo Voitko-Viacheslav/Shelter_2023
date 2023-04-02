@@ -3,14 +3,20 @@
 }
 .footer__wrapper {
     display: flex;
-    column-gap: 140px;
+    column-gap: 155px;
     padding-top: 40px;
-    flex-wrap: wrap;
+
+    // flex-wrap: wrap;
 }
 .footer__question,
 .footer__visit     {
+    width: 280px;
     margin-top: 16px;
 }
+.footer__visit  {
+    width: 302px;
+}
+
 .footer__question-title {
     margin-bottom: 40px;
     font-family: 'Georgia';
@@ -37,12 +43,14 @@
 .footer__question-phone {
 }
 .footer__visit-boston {
+
     margin-bottom: 32px;
 }
 .footer__visit-london {
 }
 .footer__puppy {
-    max-height: 310px;
+    width: 300px;
+    height: 310px;
 }
 .desc {
     font-family: 'Georgia';
