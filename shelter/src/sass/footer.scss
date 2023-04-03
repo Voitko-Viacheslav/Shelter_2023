@@ -3,12 +3,20 @@
 }
 .footer__wrapper {
     display: flex;
-    grid-column-gap: 158px;
+    column-gap: 155px;
     padding-top: 40px;
-    margin: 0 auto;
+
+    // flex-wrap: wrap;
 }
-.footer__question {
+.footer__question,
+.footer__visit     {
+    width: 280px;
+    margin-top: 16px;
 }
+.footer__visit  {
+    width: 302px;
+}
+
 .footer__question-title {
     margin-bottom: 40px;
     font-family: 'Georgia';
@@ -30,19 +38,19 @@
     color: #FFFFFF;
 }
 .footer__question-envelope {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 .footer__question-phone {
 }
-.footer__visit {
-}
 .footer__visit-boston {
+
     margin-bottom: 32px;
 }
 .footer__visit-london {
 }
 .footer__puppy {
-    max-height: 310px;
+    width: 300px;
+    height: 310px;
 }
 .desc {
     font-family: 'Georgia';
@@ -65,4 +73,5 @@
     line-height: 115%;
     letter-spacing: 0.06em;
     color: #F1CDB3;
+    max-width: 300px;
 }

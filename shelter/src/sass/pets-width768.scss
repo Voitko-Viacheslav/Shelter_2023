@@ -1,0 +1,31 @@
+@media screen and (max-width: 767px) {
+
+    .pets-house__title {
+        margin-bottom: 42px;
+        font-size: 25px;
+    }
+
+    .our-friends__wrapper-pets {
+        padding-top: 42px;
+        padding-bottom: 42px;
+    }
+
+    .our-friends__wrapper-cards-pets {
+        padding: 0 15px;
+        margin-bottom: 5px;
+    }
+
+     /* Убираем прокрутку страницы под бургером */
+     body._lock {
+        overflow: hidden;
+    }
+
+    .header__burger {
+        display: block;
+    }
+
+    .our-friends__page {
+
+        column-gap: 10px;
+    }
+}

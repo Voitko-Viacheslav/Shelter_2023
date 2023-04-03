@@ -1,0 +1,261 @@
+@media screen and (max-width: 767px) {
+    .main-page__container-content {
+        padding: 0 10px;
+    }
+
+
+//TODO Start Header*****************************************************************
+    .header__wraper {
+        margin: 0 10px;
+    }
+    .header__list {
+        display: none;
+    }
+
+    /* Убираем прокрутку страницы под бургером */
+    body._lock {
+        overflow: hidden;
+    }
+
+    .header__burger {
+        display: block;
+    }
+//   // Активный бургер
+//   .header__burger._active .burger__line-4 {
+//     display: none;
+//   }
+//   .header__burger._active .burger__line-3 {
+//     display: none;
+//   }
+//   .header__burger._active .burger__line-1 {
+//     transform: rotate(-45deg) translate(0px, 5px);
+//     margin: 0;
+//   }
+//   .header__burger._active .burger__line-2 {
+//     transform: rotate(45deg) translate(0px, -3px);
+//     margin: 0;
+//   }
+
+//   // Для позиционирования
+//   .background__header {
+//     position: relative;
+//   }
+//   .header__nav {
+//     position: fixed;
+//     top: 0;
+//     right: -100%;
+//     height: 393px;
+//     width: 100%;
+//     // background-color: rgba(201, 125, 125, 0.9);
+//     background-color: rgba(49, 36, 65, 0.9 );
+//     transition: right 0.5s ease 0s;
+//     overflow: auto;
+//     transition: 1s;
+//   }
+
+//   // Клас для активного бургера
+//   .header__nav._active {
+//     right: 0;
+//   }
+
+//   .header__list {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     row-gap: 20px;
+//     column-gap: 0px;
+//     padding: 0;
+//     margin: 0;
+//     padding: 30px 20px;
+//   }
+
+//   .header__link {
+//     font-size: 24px;
+//     // color: #FFFF;
+//     background: #70c704;
+//     background: -webkit-radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
+//     background: -moz-radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
+//     background: radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
+//     -webkit-background-clip: text;
+//     -webkit-text-fill-color: transparent;
+//     &:hover{
+//       color: #fff;
+//     }
+//     }
+//     .header__link-orange {
+//       font-weight: 400;
+//       color: #fff;
+//     }
+
+//   .header__link {
+//     font-size: 24px;
+//     color: #FFFF;
+//     &:hover{
+//       font-size: 28px;
+//       font-weight: 700;
+//       color: #E06733;     
+//     }
+//   }
+//   .header__link-active {
+//     font-weight: 400;
+//   }
+
+//TODO End Header_______________________________________________________________
+
+
+
+//TODO Start section only *****************************************************************
+.only__wrapper {
+    display: flex;
+    margin-bottom: 42px;
+    // flex-wrap: wrap;
+    // align-items: center;
+    column-gap: 42px;
+    font-style: normal;
+}
+.only-dog {
+    width: 260px;
+    height: 271px; 
+}
+.only__information {
+    text-align: center;
+}
+.only__title {
+    font-size: 25px;
+    letter-spacing: 0.06em;
+  }
+  .only__description {
+    text-align: center;    
+    width: 300px;
+  }
+//TODO End section only_______________________________________________________________
+
+  
+
+
+//TODO Start section about *****************************************************************
+.about__wrapper { 
+    padding: 0 15px;
+    // text-align: center;
+}
+.about-pets {
+    width: 260px;
+    height: 353px;
+  }
+  
+.about__title {
+    text-align: center;
+    font-size: 25px;
+}
+.about__wrapper { 
+    row-gap: 42px;
+    margin-bottom: 42px;
+  }
+//TODO End section about_______________________________________________________________
+
+
+
+
+//TODO Start section our-friends *****************************************************************
+.our-friends__wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.our-friends__title {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.wrapper__arrow {
+    display: block;
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+
+}
+.our__arow-right-hide {
+    display: none;
+}
+.our__arow-right-hide {
+    display: none;
+}
+.our-friends__wrapper-cards {
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.our__arow-left {
+    margin: 0 0 45px 0;
+}
+  .our__arow-right {
+    margin: 0 0 45px 0px;
+}
+//TODO End section our-friends_______________________________________________________________
+
+
+
+ //TODO Start section help *****************************************************************
+.help__title {
+    font-size: 25px;
+    padding-top: 42px;
+    padding-bottom: 42px
+}
+.help__card-top-wrapper {
+    column-gap: 30px;
+    row-gap: 30px;
+    margin-bottom: 100px;
+    max-width: 290px;
+    justify-content: space-between;
+    margin-bottom: 42px;
+}
+.help__card-wrapper {
+    justify-content: center;
+    width: 130px;
+}
+.help__card-title {
+    font-size: 15px;
+    line-height: 110%;
+}
+.help__card {
+   width: 50px;
+   height: 50px;
+   margin-bottom: 15px;
+}
+//TODO End section help_______________________________________________________________
+
+
+
+//TODO Start section In addition  *****************************************************************
+.addition__wrapper {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    text-align: center;
+}
+.addition__pic {
+    width: 260px;
+    height: 135px;
+  }
+.adition__title {
+    text-align: center;
+    font-size: 25px;
+}
+.addition__bank {
+    text-align: start;
+    font-size: 14px;
+    line-height: 110%;
+}
+.addition__btn {
+    font-size: 15px;
+    width: 261px;
+}
+.addition__info {
+    font-size: 12px;
+    text-align: start;
+    letter-spacing: 0.5px;
+}
+.addition__donate {
+    margin-bottom: 40px;
+    row-gap: 23px;
+}
+//TODO End section In addition_______________________________________________________________
+
+}
+

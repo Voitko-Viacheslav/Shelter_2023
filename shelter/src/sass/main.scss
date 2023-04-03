@@ -58,8 +58,8 @@
   }
   .main-page__container-content {
     margin: 0 auto;
+    padding: 0 43px;
     max-width: 1200px;
-   
   }
 
 
@@ -184,7 +184,7 @@
 }
 .only__description {
   margin-bottom: 54px;
-  // max-width: 460px;
+  width: 460px;
   font-family: 'Commissioner';
   font-style: normal;
   font-weight: 400;
@@ -248,8 +248,9 @@
   font-weight: 400;
   font-size: 35px;
   line-height: 130%;
-  display: flex;
-  align-items: center;
+  // display: flex;
+  // align-items: center;
+  text-align: start;
   letter-spacing: 0.06em;
   color: #545454;
  }
@@ -291,29 +292,36 @@
 .our-friends__slider {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.wrapper__arrow {
+  display: none;
 }
 
 .our__arow-left {
-  margin: 0 53px 53px 0;
-  width: 52px;
-  height: 52px;
+  margin: 0 53px 60px 0;
+  min-width: 52px;
+  min-height: 52px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  box-sizing: border-box;
 }
 .our__arow-right {
-  margin: 0 0 0 53px;
-  width: 52px;
-  height: 52px;
+  margin: 0 0 60px 53px;
+  min-width: 52px;
+  min-height: 52px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  box-sizing: border-box;
 }
 
 .our-friends__wrapper-cards {
@@ -366,7 +374,6 @@
   }
 }
 .learn__more {
-
   font-family: 'Georgia';
   font-style: normal;
   font-weight: 400;
@@ -374,8 +381,6 @@
   line-height: 130%;
   letter-spacing: 0.06em;
   color: #292929;
-
-
   margin-bottom: 30px;
   padding: 15px 45px;
   border-radius: 100px;
@@ -418,9 +423,14 @@
  
 
 //TODO Start section help *****************************************************************
+.help__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .help__title {
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 75px;
   padding-bottom: 60px;
   text-align: center;
   max-width: 400px;
@@ -432,27 +442,32 @@
   letter-spacing: 0.06em;
   color: #545454;
 }
-
 .help__card-top-wrapper {
   display: flex;
-  margin-left: 87px;
-  grid-column-gap: 120px;
-  align-items: center;
-  margin-bottom: 50px;
-}
-.help__card-bottom-wrapper {
-  margin: 0 0 0 168px;
-  display: flex;
-  grid-column-gap: 120px;
+  // margin-left: 87px;
+  column-gap: 120px;
+  row-gap: 55px;
   margin-bottom: 100px;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.help__card-wrapper {
+
+.help__card-wrapper  {
   display: flex;
   align-items: center;
   text-align: center;
 }
+
+.help__card-wrapper-bottom {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.help__card {
+  margin-bottom: 23px;
+}
 .help__card-title {
-  margin-top: 30px;
   white-space: nowrap;
   font-family: 'Georgia';
   font-style: normal;
@@ -462,6 +477,37 @@
   letter-spacing: 0.06em;
   color: #545454;
 }
+
+
+// .help__card-top-wrapper {
+//   display: flex;
+//   margin-left: 87px;
+//   grid-column-gap: 120px;
+//   align-items: center;
+//   margin-bottom: 50px;
+// }
+// .help__card-bottom-wrapper {
+//   margin: 0 0 0 168px;
+//   display: flex;
+//   grid-column-gap: 120px;
+//   margin-bottom: 100px;
+// }
+// .help__card-wrapper {
+//   display: flex;
+//   align-items: center;
+//   text-align: center;
+// }
+// .help__card-title {
+//   margin-top: 30px;
+//   white-space: nowrap;
+//   font-family: 'Georgia';
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 20px;
+//   line-height: 115%;
+//   letter-spacing: 0.06em;
+//   color: #545454;
+// }
 //TODO End section help_______________________________________________________________
 
 
@@ -476,6 +522,7 @@
   padding-top: 80px;
   padding-bottom: 100px;
   justify-content: center;
+  align-items: center;
   grid-column-gap: 30px;
 }
 .addition__pic {
@@ -485,7 +532,7 @@
 .addition__donate {
   display: flex;
   flex-direction: column;
-  grid-row-gap: 20px;
+  row-gap: 20px;
   max-width: 382px;
 }
 .adition__title {
@@ -509,6 +556,7 @@
 .addition__btn {
   display: flex;
   align-items: center;
+  max-width: 320px;
   padding: 10px 15px;
   gap: 15px;
   border: none;
@@ -520,7 +568,6 @@
   font-size: 20px;
   line-height: 115%;
   display: flex;
-  align-items: center;
   letter-spacing: 0.06em;
   color: #545454;
   text-decoration: none;
@@ -537,3 +584,41 @@
 }
 
 //TODO End section In addition_______________________________________________________________
+
+
+
+// Start Burger *****************************************************************
+.burger {
+  width: 30px;
+  height: 22px;
+  position: relative;
+}
+.header__burger {
+  display: none;
+}
+
+.burger__line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #F1CDB3;
+}
+
+.burger__line-1 {
+  top: 0%;
+  margin-top: 0;
+}
+.burger__line-2 {
+  top: 25%;
+  margin-top: 4px;
+}
+.burger__line-3 {
+  top: 50%;
+  margin-top: 8px;
+}
+// .burger__line-4 {
+//   top: 75%;
+//   margin-top: 6px;
+// }
+// End Burger _______________________________________________________________
