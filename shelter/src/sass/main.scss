@@ -62,12 +62,23 @@
     max-width: 1200px;
   }
 
-
 //TODO Start Header*****************************************************************
 .background__header {
+  position: relative;
+  z-index: 9;
   background: url(//), radial-gradient(100% 900% at 0% 0%, #5b483a 0%, #262425 100%), linear-gradient(0deg, #211f20, #211f20);
   // background: url(../assets/img/noise_lines_transparent@2X.png),
   // radial-gradient(100% 215.42% at 0% 0%, #5b483a 0%, #262425 100%), #211f20;
+}
+
+.burg {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(70, 80, 51, 0.3);
 }
 
 .header__wraper {
@@ -126,29 +137,28 @@
   text-decoration: none;
   transition: 1s;
   &:hover{
-    color: $green;
+    color: #FAFAFA;
+    padding-bottom: 6px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #F1CDB3; 
   }
   &:active {
-    color: yellowgreen;
+    color: #FAFAFA;
+    padding-bottom: 6px;
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
   }
 }
-.header__link-active {
-  position: relative;
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 160%;
-  color: #FAFAFA;
-}
-.header__link-active:before {
-  content: '';
-  position: absolute;
-  left: 0; bottom: -10px;
-  width: 100%;
-  height: 3px;
-  background: #F1CDB3;
-}
+
+// .header__link-active:before {
+//   content: '';
+//   position: absolute;
+//   left: 0; bottom: -10px;
+//   width: 100%;
+//   height: 3px;
+//   background: #F1CDB3;
+// }
 //TODO End Header_______________________________________________________________
 
 
@@ -219,7 +229,9 @@
 }
 //TODO End section only_______________________________________________________________
 
-
+.about {
+  position: relative;
+}
 
 //TODO Start section about *****************************************************************
 .about__wrapper { 
@@ -606,14 +618,17 @@
 }
 
 .burger__line-1 {
+  transition: 0.5s;
   top: 0%;
   margin-top: 0;
 }
 .burger__line-2 {
+  transition: 0.5s;
   top: 25%;
   margin-top: 4px;
 }
 .burger__line-3 {
+  transition: 0.5s;
   top: 50%;
   margin-top: 8px;
 }

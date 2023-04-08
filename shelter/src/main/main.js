@@ -7,5 +7,10 @@ import '/shelter/src/sass/normalize.scss';
 import '/shelter/src/sass/width1280.scss'; 
 import '/shelter/src/sass/width768.scss'; 
 import '/shelter/src/sass/width635.scss'; 
+import '/shelter/src/sass/burger.scss'; 
+
 console.log('hi Main');
 const pets = require('../pets/pets');
+const burger = require('../main/burger');
+
+

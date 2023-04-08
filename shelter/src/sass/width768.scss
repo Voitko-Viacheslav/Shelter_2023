@@ -4,103 +4,11 @@
     }
 
 
-//TODO Start Header*****************************************************************
+// TODO Start Header BURGER*****************************************************************
     .header__wraper {
         margin: 0 10px;
     }
-    .header__list {
-        display: none;
-    }
-
-    /* Убираем прокрутку страницы под бургером */
-    body._lock {
-        overflow: hidden;
-    }
-
-    .header__burger {
-        display: block;
-    }
-//   // Активный бургер
-//   .header__burger._active .burger__line-4 {
-//     display: none;
-//   }
-//   .header__burger._active .burger__line-3 {
-//     display: none;
-//   }
-//   .header__burger._active .burger__line-1 {
-//     transform: rotate(-45deg) translate(0px, 5px);
-//     margin: 0;
-//   }
-//   .header__burger._active .burger__line-2 {
-//     transform: rotate(45deg) translate(0px, -3px);
-//     margin: 0;
-//   }
-
-//   // Для позиционирования
-//   .background__header {
-//     position: relative;
-//   }
-//   .header__nav {
-//     position: fixed;
-//     top: 0;
-//     right: -100%;
-//     height: 393px;
-//     width: 100%;
-//     // background-color: rgba(201, 125, 125, 0.9);
-//     background-color: rgba(49, 36, 65, 0.9 );
-//     transition: right 0.5s ease 0s;
-//     overflow: auto;
-//     transition: 1s;
-//   }
-
-//   // Клас для активного бургера
-//   .header__nav._active {
-//     right: 0;
-//   }
-
-//   .header__list {
-//     display: flex;
-//     flex-direction: column;
-//     flex-wrap: nowrap;
-//     row-gap: 20px;
-//     column-gap: 0px;
-//     padding: 0;
-//     margin: 0;
-//     padding: 30px 20px;
-//   }
-
-//   .header__link {
-//     font-size: 24px;
-//     // color: #FFFF;
-//     background: #70c704;
-//     background: -webkit-radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
-//     background: -moz-radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
-//     background: radial-gradient(ellipse farthest-corner at bottom right, #70c704 46%, #e32121 76%);
-//     -webkit-background-clip: text;
-//     -webkit-text-fill-color: transparent;
-//     &:hover{
-//       color: #fff;
-//     }
-//     }
-//     .header__link-orange {
-//       font-weight: 400;
-//       color: #fff;
-//     }
-
-//   .header__link {
-//     font-size: 24px;
-//     color: #FFFF;
-//     &:hover{
-//       font-size: 28px;
-//       font-weight: 700;
-//       color: #E06733;     
-//     }
-//   }
-//   .header__link-active {
-//     font-weight: 400;
-//   }
-
-//TODO End Header_______________________________________________________________
+// TODO End Header _______________________________________________________________
 
 
 
